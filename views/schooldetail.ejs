@@ -1,0 +1,70 @@
+<%- include header %>
+<div class="page">
+	<div class="page__hd">
+	    <h2 class="page__title"><%=studentinfo.name %> </h2>
+	</div>
+	<div class="page__bd">
+		<div class="weui-cells">
+			<div class="weui-cell">
+				<div class="weui-cell__hd" style="position:relative;margin-right:10px;">
+					<img src=<%= studentinfo.imgurl %> style="width:50px;display:block"/>
+					
+				</div>
+				<div class="weui-cell__bd">
+					<p>name:<%= studentinfo.name %></p>
+					<p>gender:<%= studentinfo.gender %></p>
+				
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="page__bd">
+	    <div class="weui-cells">
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">studentid</span>
+			</div>
+			<div class="weui-cell__ft"><%= studentinfo.studentid %></div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">birthday</span>
+			</div>
+			<div class="weui-cell__ft"><%= studentinfo.birthday %></div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">politics status</span>
+			</div>
+			<div class="weui-cell__ft"><%= studentinfo.politicsstatus %></div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">degree type name</span>
+			</div>
+			<div class="weui-cell__ft"><%= studentinfo.degree_type_name %></div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">research area</span>
+			</div>
+			<div class="weui-cell__ft"><%= studentinfo.researcharea %></div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">telephone</span>
+			</div>
+			<div class="weui-cell__ft"><%= studentinfo.telephone %></div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">mail</span>
+			</div>
+			<div class="weui-cell__ft"><%= studentinfo.mail %></div>
+		</div>
+	    </div>
+	</div>
+</div>
+<%- include footer %>

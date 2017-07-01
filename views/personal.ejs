@@ -1,0 +1,52 @@
+<%- include header %>
+<div class="page">
+	<div class="page__hd">
+	    <h1 class="page__title">personal center</h1>
+	</div>
+	<div class="page__bd">
+		<div class="weui-cells">
+			<div class="weui-cell">
+				<div class="weui-cell__hd" style="position:relative;margin-right:10px;">
+					<img src=<%= imgurl %> style="width:50px;display:block"/>
+					
+				</div>
+				<div class="weui-cell__bd">
+					<p>name:<%= name %></p>
+					<p>gender:<%= gender %></p>
+				
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="page__bd">
+	    <div class="weui-cells">
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">teacherid</span>
+			</div>
+			<div class="weui-cell__ft"><%= teacherid %></div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">title</span>
+			</div>
+			<div class="weui-cell__ft"><%= title %></div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">telephone</span>
+			</div>
+			<div class="weui-cell__ft"><%= telephone %></div>
+		</div>
+		<div class="weui-cell">
+			<div class="weui-cell__bd">
+				<span style="vertical-align:middle">mail</span>
+			</div>
+			<div class="weui-cell__ft"><%= mail %></div>
+		</div>
+	    </div>
+	</div>
+</div>
+<%- include footer %>
